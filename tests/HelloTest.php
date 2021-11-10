@@ -13,5 +13,6 @@ class HelloTest extends TestCase
     $hello = new Hello();
 
     $this->assertSame('Hello, World', $hello->echo('World'));
+    $this->assertSame('Hello, Miku', $hello->echo('Miku'));
   }
 }

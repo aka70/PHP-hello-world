@@ -6,6 +6,6 @@ class Hello
 {
   public function echo(string $name)
   {
-    return 'Hello, World';
+    return "Hello, {$name}";
   }
 }
