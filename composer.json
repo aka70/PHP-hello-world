@@ -11,6 +11,11 @@
             "Akak\\Hello\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Akak\\Hello\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "pigeonholesort",
