@@ -1,0 +1,20 @@
+{
+    "name": "akak/hello",
+    "description": "Hello, World",
+    "type": "libray",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Akak\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pigeonholesort",
+            "email": "akatsukisatoshi@gmail.com"
+        }
+    ]
+}
