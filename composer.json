@@ -16,6 +16,9 @@
             "Akak\\Hello\\": "tests"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "authors": [
         {
             "name": "pigeonholesort",
